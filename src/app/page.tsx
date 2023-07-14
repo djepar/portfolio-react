@@ -4,12 +4,13 @@ import Navbar from '@/components/Navbar'
 
 export default function Home() {
   return (
+    <div>
     <main className={styles.main}>
-      <Navbar  />
+    <Navbar />
+
       <div className={styles.description}>
         <p>
           Front-end developer
-          
         </p>
         <div>
           <a
@@ -84,5 +85,6 @@ export default function Home() {
         </a>
       </div>
     </main>
+    </div>
   )
 }
